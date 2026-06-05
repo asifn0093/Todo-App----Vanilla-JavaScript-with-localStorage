@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="logo.jpg" type="image/jpeg" />
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="title">📝 Todo Application</h2>
+
+        <form class="todo-form">
+            <input type="text" id="input" placeholder="Enter your todo..." autocomplete="off" />
+            <button type="submit" class="input-btn">Add Todo</button>
+        </form>
+
+        <p class="duplicate-msg" id="duplicate-msg">⚠️ This todo already exists!</p>
+
+        <section class="todo-list" id="todo-list">
+            <p class="empty-msg" id="empty-msg">No todos yet! Add one above.</p>
+        </section>
+    </div>
+
+    <script src="JS/index.js"></script>
+</body>
+</html>
